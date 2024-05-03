@@ -1,9 +1,10 @@
 # AIOSP_Hackathon_Respiratory_Diseases
+
 # Problem Statement(s)
 Segment the respiratory cycles from the audio files respectively and annotate accordingly
 Then build two models:<br>
 a model to classify respiratory diseases, i.e., COPD, LRTI, URTI<br>
-a model to detect whether a recording contains crackles, wheezes, both or none<br>.
+a model to detect whether a recording contains crackles, wheezes, both or none<br>
 
 # Explaining models:
 **Inputs:**
@@ -14,10 +15,10 @@ Validation: 10% <br>
 Test: 10%<br>
 The models have been trained on 724 .wav sound files and annotation .txt files
 
-**Outputs:**
-The model to classify respiratory diseases classifies them into COPD, LRTI, or URTI
-The model to detect crackles, wheezes gives the output on the basis of the following encoding of classes:
-0: None
-1: Crackles only
-2: Wheezes only
-3: Both
+**Outputs:**<br>
+The model to classify respiratory diseases classifies them into COPD, LRTI, or URTI<br>
+The model to detect crackles, wheezes gives the output on the basis of the following encoding of classes:<br>
+0: None<br>
+1: Crackles only<br>
+2: Wheezes only<br>
+3: Both<br>
